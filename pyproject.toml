@@ -1,0 +1,26 @@
+[project]
+name = "credit-card-fraud-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anuj04432", email = "anujwagmore835@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "joblib>=1.6.0",
+    "keras>=3.15.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.64.0",
+    "tensorflow>=2.21.0",
+]
+
+[project.scripts]
+credit-card-fraud-detection = "credit_card_fraud_detection:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
