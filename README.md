@@ -1,5 +1,8 @@
 # Credit Card Fraud Detection (Deep Learning)
 
+![Streamlit UI Screenshot](app_screenshot.png)
+
+
 ## Overview
 This is a Deep Learning project built with TensorFlow/Keras to detect fraudulent credit card transactions. Credit card fraud datasets are notoriously imbalanced (usually containing less than 1% actual fraud). This project focuses on building a Neural Network that can effectively identify fraudulent patterns without being overwhelmed by the majority "normal" class.
 
